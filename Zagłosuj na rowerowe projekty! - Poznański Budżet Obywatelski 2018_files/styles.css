@@ -1,0 +1,340 @@
+/*------------------------------------*\
+	#OVERRIDE STLES
+	This style sheet can be used for two different functions:
+	1. Override specific Bootstrap styles.
+	2. Add your own styles.
+\*------------------------------------*/
+
+/**
+ * Padding-top is required if using .navbar-fixed-top.
+ * This can be removed Remove if using .navbar-static-top.
+ * The height may need to be changed if the height of you
+ * navigation changes.
+
+/**
+ * Bootstrap requires a containing element to wrap site contents 
+ * and house the grid system. You may choose one of two containers.
+ * Use .container for a responsive fixed width container.
+ * Use .container-fluid for a full width container.
+
+ * If using container-fluid, you may need to set a maximum width, 
+ * so that the container will not spread to the entire viewport.
+*/
+
+
+.container-fluid { max-width: 1170px;}
+
+.banner-container .row {
+	margin: 0; padding: 0;
+}
+
+.banner-container .row .col-sm-12 {
+	padding: 0;
+}
+
+
+/**
+ * Bootstrap sets the HTML element to 10px and the body element
+ * to 14px. These measurements do not scale, so all sizes can
+ * be reset using em units.
+*/
+
+html,
+body
+{
+	font-size: 1em; /* 16px/16px = 1em */
+	line-height: 1.5; /* 24px/16px = 1.5 */
+	padding: 20px 0 0 0;
+	font-family: 'Oswald', 'Poppins', sans-serif;
+}
+
+.navbar-brand, .navbar-brand-logo {
+	float:left;
+	height:40px;
+	font-family: poppins;
+	font-weight: bold;
+	font-size: 1.125em; /* 18px/16px = 1.125em */
+}
+
+.navbar-brand-logo{margin-top:10px;}
+
+
+.navbar-inverse .navbar-brand {
+	color: rgb(33, 57, 116);
+	text-decoration:none;
+}
+
+.navbar-inverse .navbar-brand:hover {color: rgb(33, 57, 116); }
+.navbar-inverse .navbar-brand:visited {color: rgb(33, 57, 116); }
+.navbar-inverse .navbar-brand:focus {color: rgb(33, 57, 116); }
+.navbar-inverse .navbar-brand:active {color: rgb(33, 57, 116); }
+
+.navbar-nav > li > a  { font-size: .875em;  /* 14px/16px = .875em */
+}
+
+.navbar {
+	border-bottom: 25px solid rgb(217, 235, 234);
+    -webkit-box-shadow: rgb(217, 235, 234);
+    box-shadow: rgb(217, 235, 234);
+	background-color:#FFF;
+	padding: 5px 0;
+}
+
+.navbar .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: rgb(33, 57, 116);
+	background-color: rgb(33, 57, 116);
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	border-color: rgb(33, 57, 116);
+	background-color: rgb(33, 57, 116);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: rgb(33, 57, 116);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:active{
+	color: rgb(33, 57, 170);
+}
+
+.header a:hover{
+	text-decoration:none;
+}
+
+#banner {
+    background-color: rgb(217, 235, 234);
+	padding:20px;
+	color: rgb(33, 57, 116);
+}
+
+#banner h1 {
+	line-height:1.25em;
+	padding-top: 50px;
+}
+
+.h1,
+h1
+{
+	/*margin: .666667em 0; /* 24px/36px = .67em */
+	font-size: 2.25em; /* 36px/16px = 2.25em */
+	line-height: 2.5em;
+	text-align: left;
+	color: rgb(33, 57, 116);
+	font-family: poppins;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+.projekt-34{
+	display: inline;
+	color: rgb(99, 201, 175);
+	text-transform: uppercase;
+	font-family: Oswald;
+	}
+
+.h2, 
+h2
+{
+	/*margin: .666667em 0 .533333em; /* 20px/30px = .666667em - 16px/30px = .533333em */
+	font-size: 1.2em; /* 30px/16px = 1.875em */
+	text-align: right;
+	color: rgb(33, 57, 116);
+	padding: 0.25em;
+}
+
+.h3, 
+h3
+{
+	margin: 2em 1em; /* 20px/24px = .833333em - 16px/24px = .666667em */
+	font-size: 1.5em; /* 24px/16px = 1.5em */
+	text-align: center;
+}
+
+.h6, 
+h6
+{
+	margin: 1.428571em 0 1.142857em; /* 20px/14px = 1.428571em - 16px/14px = 1.142857em */
+	font-size: .875em; /* 14px/16px = .875em */
+	text-align: center;
+}
+
+p,
+ol,
+ul,
+dl,
+table { margin-bottom: 1.25em; /* 20px/16px = 1.25em */ text-align: justify;}
+
+.projekty-rejonowe a:hover{text-decoration: none;}
+
+.jak-glosowac ul, .jak-glosowac li{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.stopka-glosuj{
+	width: 100%;
+	background-color: #6ec6ad;
+	margin: 0;
+	padding: 30px;
+	text-align: center;
+}
+
+.stopka-glosuj, .stopka-glosuj:hover{
+	text-decoration: none;
+	font-family: poppins;
+	font-weight: bold;
+	color: rgb(33, 57, 116);
+	display: block;
+}
+
+.stopka-container .row{
+	margin: 0; padding: 0;
+}
+
+.stopka-container .row .col-sm-12{
+	padding: 0;
+}
+
+
+.stopka{
+	text-align: center;
+	margin-top: 1em;
+	padding-bottom: 50px;
+}
+
+.logo-rp{
+	height: 50px;
+	width: auto;
+	display: inline;
+}
+
+
+/**
+ * Larger font-sizes can be set for different breakpoints
+*/
+
+#cookie-consent {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	background-color:#1E427C;
+	padding: 15px 0;
+	color: #FFF;
+}
+
+#cookie-consent  .btn, #cookie-consent p {
+	margin-bottom:0;
+}
+
+.invisible {
+	display:none!important;
+}
+
+
+
+@media (max-width:360px) /*male telefony*/
+{
+	.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+		padding:3px;
+	}
+	
+}
+
+@media (max-width:500px) /*male telefony*/
+{
+	.navbar-brand{
+	display: none;
+	}
+}
+@media (min-width: 768px) /*komputery*/
+{
+	html,
+	body
+	{
+		font-size: 18px;
+		line-height: 1.5;
+	}
+	.navbar-nav{float: right;}
+	
+	#banner h1 {
+		line-height:1.5em;
+		padding-left: 150px;
+	}
+	.navbar-brand-logo {
+		margin-left:0px;
+	}
+	.navbar-brand, .navbar-brand-logo {
+		margin-right:15px;
+	}
+	
+.jak-glosowac ul, .jak-glosowac li{
+	list-style-type: none;
+	padding-left: 30px;
+	}
+}
+
+@media (min-width: 992px)
+{
+	html,
+	body
+	{
+		font-size: 20px;
+		line-height: 1.5;
+	}
+	.navbar-nav{float: right;}
+	
+#banner h1 {
+		line-height:1.5em;
+		padding-left: 150px;
+	}
+	
+.jak-glosowac ul, .jak-glosowac li{
+	list-style-type: none;
+	padding-left: 30px;
+	}
+
+}
+
+@media (min-width: 1200px)
+{
+	html,
+	body
+	{
+		font-size: 21px;
+		line-height: 1.5;
+	}
+	
+	.navbar-nav{float: right;}
+	
+#banner h1 {
+		line-height:1.5em;
+		padding-left: 150px;
+	}
+	
+.jak-glosowac ul, .jak-glosowac li{
+	list-style-type: none;
+	padding-left: 30px;
+}
+
+}
+
+.projekt-ogolnomiejski-grafika {
+	width: 450px;
+    float: left;
+    margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.projekt-ogolnomiejski-wyrownanie {
+	clear: both;
+}
